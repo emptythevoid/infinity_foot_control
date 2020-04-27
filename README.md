@@ -12,6 +12,7 @@ The files need to go in these directories:
 /etc/udev/hwdb.d/60-usb-footpedal.hwdb
 
 After the files are created, run
+
 sudo systemd-hwdb update
 
 and then unplug/replug the device in. 
