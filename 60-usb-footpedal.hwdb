@@ -1,0 +1,5 @@
+# Left pedal is left click, middle pedal is middle click, right pedal is right-click
+evdev:input:b*v05F3p00FF*
+ KEYBOARD_KEY_90001=272
+ KEYBOARD_KEY_90002=274
+ KEYBOARD_KEY_90003=273
