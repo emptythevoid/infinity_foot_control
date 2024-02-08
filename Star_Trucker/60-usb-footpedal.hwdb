@@ -1,0 +1,7 @@
+# Left pedal is Left Shift. Right Pedal is SPACE
+# 90001 = left pedal
+# 90002 = both pedals (not used)
+# 90003 = right pedal
+evdev:input:b*v05F3p00FF*
+ KEYBOARD_KEY_90001=42
+ KEYBOARD_KEY_90003=57
