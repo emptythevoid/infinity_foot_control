@@ -11,6 +11,8 @@ To emulate a keyboard, add this to the end of the .rules line instead: ENV{ID_IN
 
 Key codes do NOT have a leading zero. So if evtest or xev says the keycode is 42, just put 42. Do NOT put in 042, as this will have unexpected results.
 
+You can refer to this file to see the different keycodes: https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h
+
 The files need to go in these directories:
 
 /etc/udev/rules.d/10-vec-usb-footpedal.rules
