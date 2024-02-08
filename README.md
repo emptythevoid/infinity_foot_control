@@ -16,3 +16,6 @@ After the files are created, run
 sudo systemd-hwdb update
 
 and then unplug/replug the device in. 
+
+
+I've included specific hwdb files for use with different games.
